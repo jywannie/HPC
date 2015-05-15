@@ -1,0 +1,76 @@
+ nsource = 
+  100000
+ CHUNK_SIZE_P2T = 
+       1
+ CHUNK_SIZE_M2M = 
+       1
+ CHUNK_SIZE_M2L = 
+       1
+ CHUNK_SIZE_P2M = 
+       1
+ OMP_GET_MAX_THREADS = 
+       4
+ nsource=
+  100000
+ ntarget=
+  100000
+ iprec=
+       4
+ time in d2tallbem=
+  0.34110E-01
+ lused: ccenters(k)=
+     478
+ lused(k)=
+     838
+ time in d2tlsts=
+  0.27224E-01
+ lused(k)=
+    3272
+ nboxes = 
+   23948
+ time in fmm main=
+  0.14504E+01
+ nsource=
+  100000
+ ntarget=
+  100000
+ after fmm, time (sec)=
+  0.15314E+01
+ after fmm, speed (points+targets/sec)=
+  0.13060E+06
+ after fmm, pot=
+  -.37673E+10  -.68796E+09  -.27137E+10  0.66269E+09  -.38636E+10  0.36247E+09
+  -.49265E+10  0.13746E+09  -.41825E+10  0.26704E+09  -.35417E+10  0.70758E+09
+  -.44061E+10  -.35697E+08  -.45694E+10  0.25379E+09  -.27322E+10  0.15579E+09
+  -.42744E+10  -.92548E+07  -.37581E+10  -.56013E+09  -.35476E+10  0.36465E+09
+ directly, pot=
+  -.37673E+10  0.00000E+00  -.27137E+10  0.00000E+00  -.38636E+10  0.00000E+00
+  -.49265E+10  0.00000E+00  -.41825E+10  0.00000E+00  -.35417E+10  0.00000E+00
+  -.44061E+10  0.00000E+00  -.45694E+10  0.00000E+00  -.27322E+10  0.00000E+00
+  -.42744E+10  0.00000E+00  -.37581E+10  0.00000E+00  -.35476E+10  0.00000E+00
+ directly, estimated time (sec)=
+  0.29453E+03
+ directly, estimated speed (points/sec)=
+  0.33952E+03
+ relative L2 error in potential=
+  0.10814E+00
+ relative L2 error in re(potential)=
+  0.53761E-14
+ after fmm, pottarg=
+  0.61987E+10  -.51986E+09  0.52408E+10  0.68828E+08  0.58526E+10  -.34286E+09
+  0.58823E+10  0.11786E+09  0.47919E+10  0.24202E+09  0.61441E+10  -.11868E+09
+  0.60618E+10  0.39363E+09  0.60681E+10  -.65547E+09  0.59732E+10  -.15860E+09
+  0.59184E+10  -.66239E+09  0.58914E+10  0.31175E+09  0.50298E+10  0.47730E+09
+ directly, pottarg=
+  0.61987E+10  0.00000E+00  0.52408E+10  0.00000E+00  0.58526E+10  0.00000E+00
+  0.58823E+10  0.00000E+00  0.47919E+10  0.00000E+00  0.61441E+10  0.00000E+00
+  0.60618E+10  0.00000E+00  0.60681E+10  0.00000E+00  0.59732E+10  0.00000E+00
+  0.59184E+10  0.00000E+00  0.58914E+10  0.00000E+00  0.50298E+10  0.00000E+00
+ directly, estimated time (sec)=
+  0.29121E+03
+ directly, estimated speed (targets/sec)=
+  0.34340E+03
+ relative L2 error in target potential=
+  0.67920E-01
+ relative L2 error in target re(potential)=
+  0.81979E-14
